@@ -2,7 +2,6 @@
 .cursorrules
 .cursor/
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
@@ -21,6 +20,7 @@
 # Environment and secrets
 .env
 .env.*
+temp_auto_push.bat
 !.env.example
 *.key
 *.pem
@@ -43,3 +43,5 @@ debug/
 # Maintainer-only GitHub issue tooling (not published)
 imp
 # NOTE: /scripts/ is intentionally NOT ignored – deployment scripts are public.
+.gitignore
+branch_structure.json
